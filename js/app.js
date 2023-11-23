@@ -5,6 +5,7 @@ let pausedTime = 0;
 function start() {
   startTime = new Date().getTime() - pausedTime;
   stopwatchInterval = setInterval(display, 1);
+  
 }
 
 function pause() {
